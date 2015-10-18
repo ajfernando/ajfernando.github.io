@@ -1,14 +1,14 @@
 body {
- background: url(tcp.jpg) no-repeat center center;
+ background: url(bg-tcp.jpg) no-repeat center center; padding-top:10%;
  background-size: 100%;
 }
 
-
-.container {
-	background-color: transparent;
+.navbar-inverse {
+	color: #fff;
 }
 
 .intro-message {
+	background: rgba(0, 0, 0, 0.2);
 	text-align: center;
 	padding-top: 20%;
 	padding-bottom: 10%;
@@ -20,5 +20,7 @@ h1 {
 }
 
 .signup-form {
+	background: rgba(0, 0, 0, 0.2);
 	color: #fff;
+	font-size: 10px;
 }
